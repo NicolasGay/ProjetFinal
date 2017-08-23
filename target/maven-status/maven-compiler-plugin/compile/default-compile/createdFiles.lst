@@ -1,0 +1,11 @@
+io\robusta\auth\domain\User.class
+io\robusta\homebook\api\HomeResource.class
+io\robusta\auth\api\UserResource.class
+io\robusta\upload\business\HomeBusiness.class
+io\robusta\upload\domain\City.class
+io\robusta\homebook\business\HomeBusiness.class
+io\robusta\homebook\domain\Home.class
+io\robusta\homebook\domain\City.class
+io\robusta\upload\api\HomeResource.class
+io\robusta\auth\business\UserBusiness.class
+io\robusta\upload\domain\Home.class

@@ -1,46 +1,34 @@
 package io.robusta.auth.business;
 
-import io.robusta.auth.domain.User;
+import io.robusta.auth.domain.UserInterface;
 
 public class UserBusiness {
 
-
-
-
-	public User findByEmail(String email) {
-
+	public UserInterface findByEmail(String email) {
 
 		return null;
 
 	}
 	
 	
-	public User findByName(String name) {
+	public UserInterface findByName(String name) {
 
 
 		return null;
 
 	}
 
-
-
-
-
-
-	public User createPasswordUser(String email, String password) {
+	public UserInterface createPasswordUser(String email, String password) {
 		
 		return null;
 	}
 
-
-
-
-	public void updateUser(User user) {
+	public void updateUser(UserInterface user) {
 
 
 	}
 
-	public void deleteUser(User user) {
+	public void deleteUser(UserInterface user) {
 
 	}
 	
