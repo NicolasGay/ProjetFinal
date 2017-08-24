@@ -21,9 +21,9 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.6" />
           <element id="library" level="project" name="Maven: junit:junit:4.12" />
           <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
-          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.0.0-RC2" />
+          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.0.0-RC3" />
           <element id="library" level="project" name="Maven: org.opentest4j:opentest4j:1.0.0-RC1" />
-          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.0.0-RC2" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.0.0-RC3" />
         </element>
       </element>
       <element id="directory" name="META-INF">

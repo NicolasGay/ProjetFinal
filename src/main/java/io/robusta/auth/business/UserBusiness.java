@@ -2,7 +2,11 @@ package io.robusta.auth.business;
 
 import io.robusta.auth.domain.UserInterface;
 
+import java.sql.Connection;
+
 public class UserBusiness {
+
+	Connection connection;
 
 	public UserInterface findByEmail(String email) {
 

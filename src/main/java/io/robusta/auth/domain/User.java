@@ -1,6 +1,6 @@
 package io.robusta.auth.domain;
 
-public class User extends UserInterface {
+public class User implements UserInterface {
 
     String username;
     String email;
@@ -41,7 +41,7 @@ public class User extends UserInterface {
         this.password = password;
     }
 
-    @Override
+
     public String toString() {
         return "User{" +
                 "username='" + username + '\'' +

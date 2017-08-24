@@ -1,6 +1,5 @@
 package io.robusta.auth.test;
 
-import com.mysql.jdbc.PreparedStatement;
 import io.robusta.auth.business.UserBusiness;
 import io.robusta.auth.dao.MySQLDatabaseConnection;
 import io.robusta.auth.domain.User;
@@ -13,8 +12,11 @@ import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 
+import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 
 @RunWith(Arquillian.class)
@@ -27,22 +29,40 @@ public class UserBusinessTest {
                 .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
     }
 
+    MySQLDatabaseConnection databaseConnection = new MySQLDatabaseConnection();
+    private Connection connection= databaseConnection.getConnection();
+    UserBusiness uBusiness = new UserBusiness();
+
+
     @Before
     public void setUp() throws Exception {
+
+
+        List<User> defaultUsers = new ArrayList<>();
+        User default1 = new User("Default 1", "default1@toto.com", "defaultPWD1");
+        User default2 = new User("Default 2", "default2@tata.com", "defaultPWD2");
+        User default3 = new User("Default 3", "default3@titi.com", "defaultPWD3");
+
+        defaultUsers.add(default1);
+        defaultUsers.add(default2);
+        defaultUsers.add(default3);
+
+        for(User currentUser : defaultUsers)
+            uBusiness.createPasswordUser(currentUser.getEmail(), currentUser.getPassword());
+
 
 
     }
 
     @Test
     public void createPasswordUser() throws Exception {
-        MySQLDatabaseConnection databaseConnection = new MySQLDatabaseConnection();
-        UserBusiness uBusiness = new UserBusiness(databaseConnection);
+
         User user = new User("Nicolas", "nicolas@toto.com", "myPassword");
         uBusiness.createPasswordUser(user.getEmail(), user.getPassword());
 
         try {
             String sql = "SELECT * FROM `users` WHERE name = ?";
-            PreparedStatement statement = uBusiness.connection.prepareStatement(sql);
+            java.sql.PreparedStatement statement = connection.prepareStatement(sql);
             statement.setString(1, user.getUsername());
             ResultSet resultSet = statement.executeQuery();
             if (resultSet.next())
@@ -59,11 +79,29 @@ public class UserBusinessTest {
     @Test
     public void findByEmail() throws Exception {
 
+        User user = new User("Nicolas", "nicolas@toto.com", "myPassword");
+        User foundUser = (User) uBusiness.findByEmail(user.getEmail());
+
+        if(foundUser == user)
+            System.out.println("SUCCESS !");
+        else
+            System.out.println("FAIL !");
+
 
     }
 
     @Test
     public void findByName() throws Exception {
+
+        User user = new User("Nicolas", "nicolas@toto.com", "myPassword");
+        User foundUser = (User) uBusiness.findByName(user.getUsername());
+
+        if(foundUser == user)
+            System.out.println("SUCCESS !");
+        else
+            System.out.println("FAIL !");
+
+
     }
 
     @Test
