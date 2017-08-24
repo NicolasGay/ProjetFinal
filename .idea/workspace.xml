@@ -7,13 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96b03718-21bc-4e23-af2d-977254b0a894" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_0_0_RC2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_0_0_RC3.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_0_0_RC2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_0_0_RC3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_41.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/robusta/auth/business/UserBusiness.class" afterPath="$PROJECT_DIR$/target/classes/io/robusta/auth/business/UserBusiness.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/robusta/auth/domain/User.class" afterPath="$PROJECT_DIR$/target/classes/io/robusta/auth/domain/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/robusta/auth/domain/UserInterface.class" afterPath="$PROJECT_DIR$/target/classes/io/robusta/auth/domain/UserInterface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/io/robusta/auth/test/UserBusinessTest.class" afterPath="$PROJECT_DIR$/target/classes/io/robusta/auth/test/UserBusinessTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/poei-1.war" afterPath="$PROJECT_DIR$/target/poei-1.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/poei-1/WEB-INF/classes/io/robusta/auth/business/UserBusiness.class" afterPath="$PROJECT_DIR$/target/poei-1/WEB-INF/classes/io/robusta/auth/business/UserBusiness.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/poei-1/WEB-INF/classes/io/robusta/auth/domain/User.class" afterPath="$PROJECT_DIR$/target/poei-1/WEB-INF/classes/io/robusta/auth/domain/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/poei-1/WEB-INF/classes/io/robusta/auth/domain/UserInterface.class" afterPath="$PROJECT_DIR$/target/poei-1/WEB-INF/classes/io/robusta/auth/domain/UserInterface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/poei-1/WEB-INF/classes/io/robusta/auth/test/UserBusinessTest.class" afterPath="$PROJECT_DIR$/target/poei-1/WEB-INF/classes/io/robusta/auth/test/UserBusinessTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/poei_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/poei_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poei.iml" afterPath="$PROJECT_DIR$/poei.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/robusta/auth/business/UserBusiness.java" afterPath="$PROJECT_DIR$/src/main/java/io/robusta/auth/business/UserBusiness.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/robusta/auth/domain/User.java" afterPath="$PROJECT_DIR$/src/main/java/io/robusta/auth/domain/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/robusta/auth/domain/UserInterface.java" afterPath="$PROJECT_DIR$/src/main/java/io/robusta/auth/domain/UserInterface.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/robusta/auth/test/UserBusinessTest.java" afterPath="$PROJECT_DIR$/src/main/java/io/robusta/auth/test/UserBusinessTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,12 +50,21 @@
       <file leaf-file-name="UserBusinessTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/robusta/auth/test/UserBusinessTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1503559686474" expanded="true" signature="2054:2090" ph="SELECT * FRO... users" />
+                <marker date="1503568286228" expanded="true" signature="1949:1968" ph="DELETE FROM " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="53" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -53,8 +72,8 @@
       <file leaf-file-name="MySQLDatabaseConnection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/robusta/auth/dao/MySQLDatabaseConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            <state relative-caret-position="187">
+              <caret line="13" column="96" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -63,21 +82,19 @@
       <file leaf-file-name="UserBusiness.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/robusta/auth/business/UserBusiness.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="276">
+              <caret line="85" column="8" lean-forward="false" selection-start-line="85" selection-start-column="8" selection-end-line="87" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <marker date="1503567571163" expanded="true" signature="568:607" ph="SELECT * FRO... users" />
+                <marker date="1503567571163" expanded="true" signature="1138:1176" ph="SELECT * FRO... users" />
+                <marker date="1503567571163" expanded="true" signature="1757:1778" ph="SELECT * FRO... users" />
+                <marker date="1503567571163" expanded="true" signature="2267:2329" ph="INSERT INTO users... " />
+                <marker date="1503567571163" expanded="true" signature="2946:3009" ph="UPDATE `user... " />
+                <marker date="1503567571163" expanded="true" signature="3511:3548" ph="DELETE FROM " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/robusta/auth/domain/UserInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -85,8 +102,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/robusta/auth/domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="-156">
+              <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -119,9 +136,10 @@
         <option value="$PROJECT_DIR$/.classpath" />
         <option value="$PROJECT_DIR$/src/main/java/io/robusta/auth/api/UserResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/robusta/auth/api/CorsFilter.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/io/robusta/auth/domain/UserInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/robusta/auth/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/robusta/auth/test/resources/jbossas-ds.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/io/robusta/auth/business/UserBusiness.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/robusta/auth/test/UserBusinessTest.java" />
       </list>
@@ -188,12 +206,6 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="pox3" type="cbb8eebc:String" user="pox3" />
               <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="Authentication" type="cbb8eebc:String" user="Authentication" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="pox3" type="cbb8eebc:String" user="pox3" />
-              <item name="src" type="cbb8eebc:String" user="src" />
               <item name="main" type="cbb8eebc:String" user="main" />
             </path>
             <path>
@@ -249,6 +261,26 @@
               <item name="io/robusta" type="cbb8eebc:String" user="io/robusta" />
               <item name="auth" type="cbb8eebc:String" user="auth" />
               <item name="dao" type="cbb8eebc:String" user="dao" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="pox3" type="cbb8eebc:String" user="pox3" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main" type="cbb8eebc:String" user="main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="io/robusta" type="cbb8eebc:String" user="io/robusta" />
+              <item name="auth" type="cbb8eebc:String" user="auth" />
+              <item name="domain" type="cbb8eebc:String" user="domain" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="pox3" type="cbb8eebc:String" user="pox3" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main" type="cbb8eebc:String" user="main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="io/robusta" type="cbb8eebc:String" user="io/robusta" />
+              <item name="auth" type="cbb8eebc:String" user="auth" />
+              <item name="test" type="cbb8eebc:String" user="test" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
@@ -371,7 +403,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JBoss Server.Wildfly">
+  <component name="RunManager" selected="JUnit.UserBusinessTest">
+    <configuration name="UserBusinessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="io.robusta.auth.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="poei" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="io.robusta.auth.test" />
+      <option name="MAIN_CLASS_NAME" value="io.robusta.auth.test.UserBusinessTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="Wildfly" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 10.0.0.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="HOT_SWAP_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
@@ -526,6 +583,15 @@
       <properties />
       <listeners />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JBoss Server.Wildfly" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UserBusinessTest" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserBusinessTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -542,12 +608,44 @@
       <updated>1503470824858</updated>
       <workItem from="1503470828145" duration="347000" />
       <workItem from="1503472140534" duration="19638000" />
-      <workItem from="1503556321714" duration="3163000" />
+      <workItem from="1503556321714" duration="11235000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="UserBusinessTest - 2017.08.24 at 11h 35m 21s.xml">
+      <configuration name="UserBusinessTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserBusinessTest - 2017.08.24 at 11h 39m 34s.xml">
+      <configuration name="UserBusinessTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserBusinessTest - 2017.08.24 at 11h 42m 14s.xml">
+      <configuration name="UserBusinessTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserBusinessTest - 2017.08.24 at 11h 43m 24s.xml">
+      <configuration name="UserBusinessTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserBusinessTest - 2017.08.24 at 11h 44m 23s.xml">
+      <configuration name="UserBusinessTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserBusinessTest - 2017.08.24 at 11h 46m 23s.xml">
+      <configuration name="UserBusinessTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserBusinessTest - 2017.08.24 at 11h 47m 54s.xml">
+      <configuration name="UserBusinessTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserBusinessTest - 2017.08.24 at 11h 49m 09s.xml">
+      <configuration name="UserBusinessTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserBusinessTest - 2017.08.24 at 11h 50m 42s.xml">
+      <configuration name="UserBusinessTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserBusinessTest - 2017.08.24 at 11h 51m 08s.xml">
+      <configuration name="UserBusinessTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23148000" />
+    <option name="totallyTimeSpent" value="31220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -574,9 +672,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30546266" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30546266" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28093645" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26119402" sideWeight="0.494705" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26066098" sideWeight="0.494705" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18020834" sideWeight="0.505295" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -588,6 +686,42 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2541806" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30546266" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28093645" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26119402" sideWeight="0.494705" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18020834" sideWeight="0.505295" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -605,8 +739,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1503559686474" expanded="true" signature="2054:2090" ph="SELECT * FRO... users" />
+            <marker date="1503568286228" expanded="true" signature="1949:1968" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -617,6 +750,14 @@
           <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <marker date="1503567571163" expanded="true" signature="568:607" ph="SELECT * FRO... users" />
+            <marker date="1503567571163" expanded="true" signature="1138:1176" ph="SELECT * FRO... users" />
+            <marker date="1503567571163" expanded="true" signature="1757:1778" ph="SELECT * FRO... users" />
+            <marker date="1503567571163" expanded="true" signature="2267:2329" ph="INSERT INTO users... " />
+            <marker date="1503567571163" expanded="true" signature="2946:3009" ph="UPDATE `user... " />
+            <marker date="1503567571163" expanded="true" signature="3511:3548" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -708,55 +849,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="82" lean-forward="true" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/robusta/auth/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/robusta/auth/domain/UserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/robusta/auth/test/resources/jbossas-ds.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="53" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/robusta/auth/dao/MySQLDatabaseConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        <state relative-caret-position="187">
+          <caret line="13" column="96" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/robusta/auth/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/robusta/auth/business/UserBusiness.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="276">
+          <caret line="85" column="8" lean-forward="false" selection-start-line="85" selection-start-column="8" selection-end-line="87" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <marker date="1503567571163" expanded="true" signature="568:607" ph="SELECT * FRO... users" />
+            <marker date="1503567571163" expanded="true" signature="1138:1176" ph="SELECT * FRO... users" />
+            <marker date="1503567571163" expanded="true" signature="1757:1778" ph="SELECT * FRO... users" />
+            <marker date="1503567571163" expanded="true" signature="2267:2329" ph="INSERT INTO users... " />
+            <marker date="1503567571163" expanded="true" signature="2946:3009" ph="UPDATE `user... " />
+            <marker date="1503567571163" expanded="true" signature="3511:3548" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/robusta/auth/test/UserBusinessTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1503559686474" expanded="true" signature="2054:2090" ph="SELECT * FRO... users" />
+            <marker date="1503568286228" expanded="true" signature="1949:1968" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>

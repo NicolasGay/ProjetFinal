@@ -8,7 +8,7 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: javax.activation:activation:1.1.1" />
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.41" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.6" />
           <element id="library" level="project" name="Maven: org.jboss.resteasy:resteasy-client:3.0.14.Final" />
           <element id="library" level="project" name="Maven: org.jboss.resteasy:resteasy-jaxrs:3.0.14.Final" />
           <element id="library" level="project" name="Maven: org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:1.0.0.Final" />

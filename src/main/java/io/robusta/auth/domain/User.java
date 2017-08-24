@@ -1,29 +1,29 @@
 package io.robusta.auth.domain;
 
-public class User implements UserInterface {
 
-    String username;
-    String email;
-    String password;
+public class User implements UserInterface{
+
+    private String name;
+    private String email;
+    private String password;
 
     public User() {
     }
 
     public User(String username, String email, String password) {
-        this.username = username;
+        this.name = username;
         this.email = email;
         this.password = password;
     }
 
-    public String getUsername() {
-        return username;
+    public String getName() {
+        return name;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    @Override
     public String getEmail() {
         return email;
     }
@@ -32,7 +32,6 @@ public class User implements UserInterface {
         this.email = email;
     }
 
-    @Override
     public String getPassword() {
         return password;
     }
@@ -41,10 +40,9 @@ public class User implements UserInterface {
         this.password = password;
     }
 
-
     public String toString() {
         return "User{" +
-                "username='" + username + '\'' +
+                "name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
                 '}';
